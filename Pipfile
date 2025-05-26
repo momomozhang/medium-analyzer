@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain-pinecone = "*"
+dotenv = "*"
+langchain-community = "*"
+langchain-openai = "*"
+langchain-text-splitters = "*"
+ollama = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
